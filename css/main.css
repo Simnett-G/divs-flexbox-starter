@@ -111,10 +111,31 @@ body {
 
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;                /*add display:flex and set justify-content to space-between*/
   font-weight: 400;
   border-top: 1px solid rgb(241, 4, 162);
-  border-bottom: 1px solid rgb(241, 4, 162);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    color: rgb(241, 4, 162);
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    color: rgb(241, 4, 162);
+    border-bottom: 1px solid rgb(241, 4, 162);
+    font-size: 1.25em;
+    line-height: 1.5em; 
 }
 
 .div-1, .div-2, .div-3 {
@@ -133,6 +154,22 @@ body {
 
 .div-2, .div-3 {
   border-left: 1px solid rgb(241, 4, 162);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid rgb(241, 4, 162);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 1em;
 }
 
 
